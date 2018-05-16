@@ -1,0 +1,27 @@
+
+1000  16
+change 1 1000 999
+establish 27 744
+change 2 1000 -337
+establish 99 1000
+change 34 755 5
+establish 45 834
+change 45 954 -11
+establish 141 175
+change 233 964 -10
+establish 14 754
+
+change 43 652 37
+establish 54 872
+change 23 821 470
+establish 24 664
+change 34 924 -19
+establish 41 106
+
+4 5
+change 1 4 2
+change 1 2 -1
+establish 1 2
+establish 2 4
+establish 1 4
+

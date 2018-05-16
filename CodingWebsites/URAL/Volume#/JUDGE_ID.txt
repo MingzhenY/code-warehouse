@@ -1,0 +1,9 @@
+Dear Zearot,
+
+You have successfully registered at Timus Online Judge.
+
+Use the following requisites for working in the system:
+JUDGE_ID: 169345OJ
+
+Timus Online Judge
+http://acm.timus.ru

@@ -1,0 +1,8 @@
+aaba
+abaa
+
+aabb
+abab
+
+ccdd
+ccdd

@@ -1,0 +1,17 @@
+7
+gerostratos scorpio shamgshamg
+zaitsev silverberg cousteau
+zaitsev petersen shamgshamg
+clipper petersen shamgshamg
+clipper bakirelli vasiliadi
+silverberg atn dolly
+knuth dijkstra bellman
+
+1
+knuth dijkstra bellman
+
+4
+a b c
+b c d
+a c d
+a b d

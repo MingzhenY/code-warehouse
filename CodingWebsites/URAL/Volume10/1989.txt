@@ -1,0 +1,8 @@
+abcda
+5
+palindrome? 1 5
+palindrome? 1 1
+change 4 b
+palindrome? 2 4
+palindrome? 2 4
+

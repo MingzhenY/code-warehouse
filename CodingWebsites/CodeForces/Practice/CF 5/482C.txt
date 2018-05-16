@@ -1,0 +1,13 @@
+2
+aab
+aac
+
+3
+aaA
+aBa
+Caa
+
+3
+aca
+vac
+wqq
