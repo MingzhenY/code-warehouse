@@ -22,6 +22,7 @@ main = do
 
 checkValid :: [(Int,Char)] -> Bool
 checkValid = all pairValid
+
 pairValid :: (Int,Char) -> Bool
 pairValid (0,'.') = True
 pairValid (_,'*') = True
