@@ -1,0 +1,13 @@
+A:\
+2
+CD..
+CD     ..
+
+C:\WINDOWS\SYSTEM\
+2
+CD        NET
+CD   COM\DCOM
+
+C:\PCTOOLS\
+1
+CD  \WPS\FONT

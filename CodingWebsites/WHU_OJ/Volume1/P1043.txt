@@ -1,0 +1,11 @@
+4
+1 kingkong
+2 dinfkong
+3 kinfkong
+4 kinfkonq
+2
+2
+1 2
+3 4
+1
+1 2

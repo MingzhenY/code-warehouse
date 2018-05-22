@@ -1,0 +1,11 @@
+2 3
+bbb
+www
+2 2
+bw
+wb
+4 4
+bwww
+wbbb
+wbww
+wwww

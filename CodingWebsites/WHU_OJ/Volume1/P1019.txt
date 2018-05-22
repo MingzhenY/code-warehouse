@@ -1,0 +1,47 @@
+5
+Algorithm: WED Morning 2
+Algorithm: MON Afternoon 1
+Data Base: TUE Afternoon 2
+Dat  Base: TUE Afternoon 3
+Wavelet: FRI Morning 4
+
+2
+Math: MON Morning 1
+Computer: FRI Afternoon 3
+
+35
+Math: MON Morning 1
+Math: MON Morning 2
+Math: MON Morning 3
+Math: MON Morning 4
+Math: MON Afternoon 1
+Math: MON Afternoon 2
+Math: MON Afternoon 3
+English: TUE Morning 1
+English: TUE Morning 2
+English: TUE Morning 3
+English: TUE Morning 4
+English: TUE Afternoon 1
+English: TUE Afternoon 2
+English: TUE Afternoon 3
+Science: WED Morning 1
+Science: WED Morning 2
+Science: WED Morning 3
+Science: WED Morning 4
+Science: WED Afternoon 1
+Science: WED Afternoon 2
+Science: WED Afternoon 3
+Time: THU Morning 1
+Time: THU Morning 2
+Time: THU Morning 3
+Time: THU Morning 4
+Time: THU Afternoon 1
+Time: THU Afternoon 2
+Time: THU Afternoon 3
+Coding: FRI Morning 1
+Coding: FRI Morning 2
+Coding: FRI Morning 3
+Coding: FRI Morning 4
+Coding: FRI Afternoon 1
+Coding: FRI Afternoon 2
+Coding: FRI Afternoon 3
