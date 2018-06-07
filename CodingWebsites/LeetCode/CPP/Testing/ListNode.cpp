@@ -16,13 +16,6 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-void LN_PushBack(ListNode *&Head, ListNode *&Last, ListNode *t);
-
-
-int main(){
-    
-	return 0;
-}
 void LN_PushBack(ListNode *&Head, ListNode *&Last, ListNode *t){
     t->next = NULL;
     if(Head){
@@ -33,3 +26,18 @@ void LN_PushBack(ListNode *&Head, ListNode *&Last, ListNode *t){
         Head = Last = t;
     }
 }
+
+void LN_Show(ListNode *Head){
+    while(Head){
+        printf("%d ",Head->val);
+        Head = Head->next;
+    }
+    printf("\n");
+}
+
+
+int main(){
+    
+	return 0;
+}
+
