@@ -18,7 +18,7 @@ struct TNode{
     TNode():Count(0),L(NULL),R(NULL){}
 };
 
-class RandomizedSet {
+class RandomizedCollection {
     vector<int> Mask;
     TNode *root;
     bool Insert(TNode *&root,int v,int k){
@@ -28,7 +28,7 @@ class RandomizedSet {
         //return if reached leaf
         if(k == 32){
             bool ret = root->Count == 0;
-            root->Count = 1;
+            root->Count++;
             return ret;
         }
         
@@ -38,15 +38,25 @@ class RandomizedSet {
             ret = Insert(root->R,v,k+1);
         else
             ret = Insert(root->L,v,k+1);
-        root->Count += ret;
+        root->Count ++;
         return ret;
+    }
+    int Count(TNode *root,int v,int k){
+        if(!root)
+            return 0;
+        if(k == 32){
+            return root->Count;
+        }
+        if(v & Mask[k])
+            return Count(root->R,v,k+1);
+        else
+            return Count(root->L,v,k+1);
     }
     bool Remove(TNode *&root,int v,int k){
         if(!root)
             return false;
         if(k == 32){
-            bool ret = root->Count == 1;
-            root->Count = 0;
+            bool ret = --root->Count == 0;
             return ret;
         }
         bool ret;
@@ -54,7 +64,7 @@ class RandomizedSet {
             ret = Remove(root->R,v,k+1);
         else
             ret = Remove(root->L,v,k+1);
-        root->Count -= ret;
+        root->Count--;
         return ret;
     }
     int GetRandom(TNode *root,int v,int k){
@@ -71,7 +81,7 @@ class RandomizedSet {
     }
 public:
     /** Initialize your data structure here. */
-    RandomizedSet() {
+    RandomizedCollection() {
         Mask.resize(32);
         Mask[0] = 1;
         for(int i = 1 ; i < 32 ; ++i)
@@ -86,7 +96,10 @@ public:
     
     /** Removes a value from the set. Returns true if the set contained the specified element. */
     bool remove(int val) {
-        return Remove(root,val,0);
+        if(Count(root,val,0) > 0)
+            return Remove(root,val,0);
+        else
+            return 0;
     }
     
     /** Get a random element from the set. */
@@ -106,7 +119,7 @@ public:
 
 int main(){
     srand(time(NULL));
-    RandomizedSet S;
+    RandomizedCollection S;
     printf("%d\n",S.insert(3));
     printf("%d\n",S.insert(3));
     printf("%d\n",S.getRandom());
