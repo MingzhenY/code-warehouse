@@ -56,7 +56,8 @@ class RandomizedCollection {
         if(!root)
             return false;
         if(k == 32){
-            bool ret = --root->Count == 0;
+            bool ret = root->Count > 0;
+            root->Count--;
             return ret;
         }
         bool ret;
